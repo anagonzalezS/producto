@@ -14,7 +14,7 @@ const Producto = ({ title, description, price, image }) => (
       <p className="card-text">{description}</p>
       <p className="card-text">${price.toFixed(2)}</p>
       <a
-        href={`https://wa.me/1136545084?text=¡Hola! Estoy interesado en comprar ${title}.`}
+        href={`https://wa.me/+5491136545084?text=¡Hola! Estoy interesado en comprar ${title}.`}
         target="_blank"
         rel="noopener noreferrer"
         className="btn btn-success"
